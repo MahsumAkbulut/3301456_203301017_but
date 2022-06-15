@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "582262920430",
+    "project_id": "olanburcapp",
+    "storage_bucket": "olanburcapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582262920430:android:d0bf39f956e1db48d5cfff",
+        "android_client_info": {
+          "package_name": "com.example.feedback_form"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582262920430-2hsujljhmrakol3c4n313pod92dv395p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjzNiOnWOl8uhBafFXtIqQ5RlBEiggapE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582262920430-2hsujljhmrakol3c4n313pod92dv395p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "582262920430-s9praujdjfu7t32a99n70cijl0hrbjup.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.feedbackForm"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582262920430:android:400aac8ddfb3eb20d5cfff",
+        "android_client_info": {
+          "package_name": "com.example.sonproje1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582262920430-2hsujljhmrakol3c4n313pod92dv395p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjzNiOnWOl8uhBafFXtIqQ5RlBEiggapE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582262920430-2hsujljhmrakol3c4n313pod92dv395p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "582262920430-s9praujdjfu7t32a99n70cijl0hrbjup.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.feedbackForm"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
