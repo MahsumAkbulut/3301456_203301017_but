@@ -28,15 +28,12 @@ class _RegisterPageState extends State<RegisterPage> {
             child: Container(
               height: size.height * .7,
               width: size.width * .85,
-              decoration: BoxDecoration(
-                  color: Colors.blue.withOpacity(.75),
-                  borderRadius: BorderRadius.all(Radius.circular(20)),
-                  boxShadow: [
-                    BoxShadow(
-                        color: Colors.grey.withOpacity(.75),
-                        blurRadius: 10,
-                        spreadRadius: 2)
-                  ]),
+              decoration: BoxDecoration(color: Colors.red, boxShadow: [
+                BoxShadow(
+                    color: Colors.grey.withOpacity(.75),
+                    blurRadius: 10,
+                    spreadRadius: 2)
+              ]),
               child: Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: Center(

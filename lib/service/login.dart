@@ -1,4 +1,4 @@
-import 'package:sonproje1/ilkekran.dart';
+import 'package:sonproje1/pages/ilkekran.dart';
 import 'package:sonproje1/service/auth.dart';
 import 'package:sonproje1/service/register.dart';
 import 'package:flutter/material.dart';
