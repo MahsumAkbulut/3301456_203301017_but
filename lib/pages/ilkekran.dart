@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sonproje1/pages/FeedBack.dart';
-import 'package:sonproje1/service/login.dart';
+import 'package:sonproje1/pages/BurcCrud.dart';
+import 'package:sonproje1/pages/secenekler.dart';
 import 'hakkinda.dart';
-import 'girisekrani.dart';
+import '../service/LoginPage.dart';
 
 class ilkEkran extends StatelessWidget {
   const ilkEkran({Key? key}) : super(key: key);
@@ -40,10 +40,10 @@ class ilkEkran extends StatelessWidget {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => FeedBack()),
+                        MaterialPageRoute(builder: (context) => BurcCrud()),
                       );
                     },
-                    child: Container(child: Text('FeedBack')));
+                    child: Container(child: Text('Kişi Ekle')));
               }),
               Builder(builder: (context) {
                 return RaisedButton(
@@ -92,7 +92,7 @@ class ilkEkran extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: ((context) => GirisEkran())));
+                                builder: ((context) => Secenekler())));
                       }),
                   RaisedButton(
                       color: Colors.blueAccent,

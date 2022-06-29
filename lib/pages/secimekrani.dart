@@ -3,8 +3,7 @@ import 'package:sonproje1/pages/grafikler.dart';
 import 'burclar.dart';
 
 class SecimEkrani extends StatefulWidget {
-  String ad, soyad;
-  SecimEkrani({required this.ad, required this.soyad});
+  SecimEkrani();
   @override
   State<SecimEkrani> createState() => _SecimEkraniState();
 }
@@ -21,16 +20,6 @@ class _SecimEkraniState extends State<SecimEkrani> {
               mainAxisSize: MainAxisSize.min,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-            Text("Hoşgeldin",
-                style: TextStyle(fontSize: 40, color: Colors.black54)),
-            SizedBox(
-              height: 20,
-            ),
-            Text(widget.ad + "  " + widget.soyad,
-                style: TextStyle(fontSize: 40, color: Colors.black54)),
-            SizedBox(
-              height: 50,
-            ),
             Text(
               'BURCUNU SEÇ ',
               style: TextStyle(fontSize: 50, color: Colors.orangeAccent),
@@ -164,13 +153,6 @@ class _SecimEkraniState extends State<SecimEkrani> {
                   child: Text('Geri Dön'),
                   onPressed: () {
                     Navigator.pop(context);
-                  },
-                ),
-                RaisedButton(
-                  child: Text('Grafik Ekranı'),
-                  onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => Grafikler()));
                   },
                 ),
               ],

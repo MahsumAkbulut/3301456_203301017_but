@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:rive/rive.dart';
-import 'package:sonproje1/service/login.dart';
+import 'package:sonproje1/pages/BurcCrud.dart';
+import 'package:sonproje1/pages/ilkekran.dart';
+import 'package:sonproje1/service/LoginPage.dart';
 
 class animasyon extends StatefulWidget {
   const animasyon({Key? key}) : super(key: key);
@@ -26,12 +28,6 @@ class _animasyonState extends State<animasyon> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-            centerTitle: true,
-            titleTextStyle: TextStyle(
-                fontSize: 30, color: Colors.white, fontWeight: FontWeight.bold),
-            title: Text('BURÇ')),
-        backgroundColor: Colors.red,
         body: Center(
           child: Container(
             width: screenSize.width,
